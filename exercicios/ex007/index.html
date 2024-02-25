@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            height: 100vh;
+            background-color: black;
+            background-image: url('../imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: white;
+            background-size: cover;
+            background-attachment: fixed;
+
+            /**Utilizar o vinculo* para rolar ou deixar fixa a imagem**/ 
+            /**Cover deixa a imagem completa na tela mesmo que tenha que cortar um pouco, junto com fixed faz com que conforme role o conteudo a imagem fique "estatica" e sem distorções**/
+
+            /**Shorthand ordem:
+            color > image > position > repeat > (size) > attachment
+
+            size (cover) está na regra mas não é possivel aplicar, colocar a parte.
+            **/
+            background: black url("../imagens/wallpaper002.jpg") center center no-repeat cover fixed;
+            background-size: cover;
+        }
+        
+        main {
+            background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta animi aut maiores dicta veritatis accusantium aperiam nesciunt saepe ab sit aliquid minima possimus voluptate repellendus harum illo laboriosam, fugiat deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo ea aliquid quidem porro, odit dolores incidunt saepe soluta accusamus quasi repellat? Tempore officia vitae delectus harum repudiandae eaque ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptas et eius quo iusto? Voluptates illo delectus voluptas, mollitia perferendis rem non culpa, laborum dolore enim libero in placeat officia!</p>
+    </main>
+</body>
+</html>
