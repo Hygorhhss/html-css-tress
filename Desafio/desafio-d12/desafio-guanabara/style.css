@@ -1,9 +1,9 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
 }
-
-@charset "UTF-8";
 
 
 html, body {
@@ -39,6 +39,8 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
 section.normal {
@@ -51,8 +53,14 @@ section.imagem {
     color: yellowgreen;
 }
 
+section.imagem > p {
+    background-color: blue;
+    width: 500px;
+}
+
 footer {
     text-align: center;
     background-color: black;
+    color: white;
     padding: 10px;
 }
