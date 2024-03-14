@@ -12,7 +12,7 @@ caption {
 table {
     width: 500px;
     border-collapse: collapse;
-    position: relative; /*Posição relativa do conteudo*/
+    position: relative;
 }
 
 thead, tfoot {
@@ -21,9 +21,9 @@ thead, tfoot {
 }
 
 thead > tr > th {
-    position: sticky; /*Posição grudado*/
-    top: -1px; /*Vai colar na parte 0 de cima da página*/
-    background-color: grey; /*colocar na mesma cor para rolar a página e o cabeçalho acompanhar*/
+    position: sticky; 
+    top: -1px; 
+    background-color: grey; 
 }
 
 td, th {
