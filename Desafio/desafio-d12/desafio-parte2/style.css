@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+}
+
+thead {
+    background-color: grey;
+    color: white;
+}
+
+.extra { 
+    background-color: grey;
+    color: white;
+}
