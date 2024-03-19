@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <!--<colgroup> Cria uma grupo de colunas, em cada coluna coloca um ID ou Class e faz alteração dos valores no CSS
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprofissao">
+        </colgroup>-->
+
+        <colgroup> <!--Exemplo de uma junção/mesclagem de coluna criando apenas 3 <col> para representar 4 colunas-->
+        <col class="cnome">
+        <col class="cgrupo" span="2">
+        <col class="cprofissao">
+        </colgroup>
+
+        <!-- colocando as cores e informando as mesmas cores no CSS
+        <colgroup>
+        <col class="amarela">
+        <col class="vermelha">
+        <col class="amarela">
+        <col class="vermelha">
+        </colgroup>
+        -->
+
+        <caption>Cadastro</caption>
+        <tr>
+            <td scope="col">Nome</td>
+            <td scope="col">Sexo</td>
+            <td scope="col">Idade</td>
+            <td scope="col">Profissão</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>Feminino</td>
+            <td>27</td>
+            <td>Dentista</td>
+        </tr>
+
+        <tr>
+            <td>Beatriz</td>
+            <td>Feminino</td>
+            <td>23</td>
+            <td>Médica</td>
+        </tr>
+
+        <tr>
+            <td>Roberto</td>
+            <td>Masculino</td>
+            <td>30</td>
+            <td>Jogador</td>
+        </tr>
+    </table>
+</body>
+</html>
